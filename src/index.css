@@ -1,0 +1,54 @@
+/* Reset some default styles */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* App container */
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Map styling */
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0.25rem;
+}
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Input fields */
+input, textarea {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 0.25rem 0;
+  width: 100%;
+}
+
+/* Restaurant card */
+.restaurant-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #fafafa;
+}
